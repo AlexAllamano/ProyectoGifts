@@ -30,6 +30,8 @@ export const GrillaGifs = ({categoria}) => {
               subtitle={item.titulo}
               actionIcon={
                 <IconButton
+                  href={item.url}
+                  target="_blank"
                   sx={{ color: "rgba(255, 255, 255, 0.54)" }}
                   aria-label={`info about ${item.titulo}`}
                 >
